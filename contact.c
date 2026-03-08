@@ -1,11 +1,3 @@
-/*
-Name: K PAVAN SAI KUMAR
-Date: 10 November 2025
-Project Description: The Address Book Project is a console based application developed using C programming language. 
-It provides a simple menu-driven interface to save contacts containing name phone number and email, 
-And to perform basic operations such as list contacts, create contact, search contact, edit contact, delete contact, 
-save and exit.
-*/
 
 #include <stdio.h>        // Standard input/output
 #include <stdlib.h>       // For malloc, exit, etc.
@@ -547,3 +539,4 @@ void deleteContact(AddressBook *addressBook)
         printf("EMAIL : %s\n\n", addressBook->contacts[i].email); // Print email
     }
 }
+
